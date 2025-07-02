@@ -1,67 +1,60 @@
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff6fa;
+  color: #333;
   margin: 0;
   padding: 0;
-  background-color: #fdf4f7;
-  color: #333;
   text-align: center;
 }
-
-h1 {
+.hero {
+  padding-top: 1em;
+}
+.hero-icon {
+  width: 100px;
+  max-width: 20vw;
+}
+.title {
   font-size: 2em;
-  margin-top: 10px;
+  margin: 0.2em 0;
 }
-
-.ribbon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin: 20px auto;
-}
-
-.ribbon img {
-  width: 40px;
-  height: auto;
-}
-
 .signature {
+  font-size: 1em;
+  color: #cc6699;
   font-style: italic;
-  font-size: 0.9em;
-  color: #d883a1;
+  margin-top: -0.5em;
 }
-
-.buttons {
-  margin: 20px;
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em 0;
+  gap: 1em;
 }
-
-.btn {
-  display: inline-block;
-  margin: 0 10px;
-  padding: 10px 20px;
-  background: #f2c1d1;
-  border-radius: 8px;
-  color: #222;
+.button {
+  background-color: #f9d9e6;
+  color: #333;
+  border: 2px solid #e5b8cc;
+  padding: 0.7em 1.2em;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #e5b8cc;
+  font-weight: bold;
   text-decoration: none;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: all 0.2s ease-in-out;
 }
-
-.btn:hover {
-  background: #f9d4e2;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+.iframe-container {
+  margin: auto;
+  max-width: 95vw;
+  height: 70vh;
 }
-
-.iframe-wrapper {
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 iframe {
   width: 100%;
-  height: 800px;
-  border-radius: 10px;
-  border: 1px solid #ddd;
+  height: 100%;
+  border: none;
+}
+@media (max-width: 600px) {
+  .button {
+    width: 80vw;
+    box-sizing: border-box;
+    text-align: center;
+  }
 }
