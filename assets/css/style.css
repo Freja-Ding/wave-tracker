@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8fc;
+    color: #333;
+}
+.container {
+    padding: 20px;
+    text-align: center;
+}
+.buttons {
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f9d4e2;
+    color: #333;
+    text-decoration: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+.signature {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #d889b8;
+}
+.ribbon {
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+}
