@@ -65,3 +65,47 @@ iframe {
   border-radius: 10px;
   border: 1px solid #ddd;
 }
+
+.hero {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.hero-icon {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #d36b9a;
+}
+
+.hero-subtitle {
+  font-size: 1.2em;
+  color: #d883a1;
+  font-style: italic;
+  margin-top: -10px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #fddde6;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 1em;
+  color: #333;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+  background-color: #fbcbd9;
+}
