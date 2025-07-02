@@ -1,25 +1,27 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>wave! Tracker</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>wave! Tracker</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-    <div class="container">
-        <h1>wave! Tracker</h1>
-        <div class="buttons">
-            <a href="https://forms.gle/XxePFSjYMs5NuKCh7" target="_blank" class="btn">➕ Fill the Form</a>
-            <a href="https://lookerstudio.google.com/reporting/d1b5ab3c-5f8e-4005-a7a7-d671189ea9e2" target="_blank" class="btn">📈 View the Chart</a>
-            <button id="toggleLang" class="btn">🌐 中文 / English</button>
-        </div>
-        <iframe src="https://lookerstudio.google.com/embed/reporting/d1b5ab3c-5f8e-4005-a7a7-d671189ea9e2/page/1M" 
-                width="100%" height="600" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="signature">
-        <img src="assets/img/ribbon.png" alt="ribbon" class="ribbon">
-        <span>cozy life～</span>
-    </div>
-    <script src="assets/js/main.js"></script>
+  <div class="ribbon">
+    <img src="assets/img/ribbon.png" alt="ribbon" />
+    <div class="signature">cozy life ～</div>
+  </div>
+  <h1>wave! Tracker</h1>
+  <div class="buttons">
+    <a class="btn" href="https://forms.gle/XxePFSjYMs5NuKCh7" target="_blank">➕ Fill the Form</a>
+    <a class="btn" href="https://lookerstudio.google.com/reporting/d1b5ab3c-5f8e-4005-a7a7-d671189ea9e2" target="_blank">📈 View the Chart</a>
+    <button class="btn" onclick="toggleLang()">🌐 中文 / English</button>
+  </div>
+  <div class="iframe-wrapper">
+    <iframe src="https://lookerstudio.google.com/embed/reporting/d1b5ab3c-5f8e-4005-a7a7-d671189ea9e2/page/p_3sm2t8q4gd"
+            frameborder="0" allowfullscreen></iframe>
+  </div>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
